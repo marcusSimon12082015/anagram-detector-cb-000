@@ -9,7 +9,7 @@ class Anagram
     anagrams = []
     word_array.map{|word|
       if @word.chars.sort.join == word.chars.sort.join
-        anagrams << word
+        word
       end
       }
   end
